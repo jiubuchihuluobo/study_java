@@ -1,4 +1,4 @@
-package com.apple.www;
+package com.tesla;
 
 public class ArrayTest {
     public static void main(String[] args) {

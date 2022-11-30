@@ -1,8 +1,17 @@
-package com.apple.www;
+package com.tesla;
 
 public class ClassTest {
     private String name;
     private int age;
+
+    public ClassTest(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public ClassTest() {
+
+    }
 
     public String getName() {
         return name;
@@ -18,14 +27,5 @@ public class ClassTest {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public ClassTest(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public ClassTest() {
-
     }
 }
