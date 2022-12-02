@@ -1,14 +1,14 @@
-package com.tesla;
+package com.tesla.people;
 
-public class SalesPerson extends Person implements InterfaceTest {
+public class Seller extends Person implements InterfaceTest {
     String responsibility;
     boolean status;
 
-    public SalesPerson() {
+    public Seller() {
 
     }
 
-    public SalesPerson(String name, String country, String responsibility) {
+    public Seller(String name, String country, String responsibility) {
         super(name, country);
         this.responsibility = responsibility;
     }

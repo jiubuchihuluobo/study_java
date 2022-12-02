@@ -1,4 +1,4 @@
-package com.tesla;
+package com.tesla.people;
 
 /**
  * @author qiliu

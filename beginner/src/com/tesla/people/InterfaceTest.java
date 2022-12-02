@@ -1,4 +1,4 @@
-package com.tesla;
+package com.tesla.people;
 
 public interface InterfaceTest {
     String test = "接口中的默认方法";

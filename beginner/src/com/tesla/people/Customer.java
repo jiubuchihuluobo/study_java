@@ -1,4 +1,4 @@
-package com.tesla;
+package com.tesla.people;
 
 public class Customer extends Person {
     public Customer() {

@@ -1,9 +1,9 @@
-package com.tesla;
+package com.tesla.people;
 
-public class OopTest {
+public class Test {
     public static void main(String[] args) {
-        SalesPerson sp1 = new SalesPerson("Tom", "CHINA", "seller");
-        SalesPerson sp2 = new SalesPerson("Jerry", "CHINA", "cleaner");
+        Seller sp1 = new Seller("Tom", "CHINA", "seller");
+        Seller sp2 = new Seller("Jerry", "CHINA", "cleaner");
 
         Customer c1 = new Customer("Tylor", "USA");
 
