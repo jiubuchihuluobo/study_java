@@ -9,8 +9,13 @@ public class Customer extends Person {
         super(name, country);
     }
 
+    @Override
+    public String toString() {
+        System.out.println("toString");
+        return super.toString();
+    }
+
     public void eat() {
         System.out.println("\n四菜一汤");
     }
-
 }
