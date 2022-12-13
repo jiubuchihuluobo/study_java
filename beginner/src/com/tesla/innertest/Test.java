@@ -13,5 +13,8 @@ public class Test {
 
         // 调用外部类Outer的show方法
         outer.show();
+
+        // 调用外部类Outer的identify方法
+        outer.identify();
     }
 }
