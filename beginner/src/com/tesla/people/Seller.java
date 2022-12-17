@@ -13,6 +13,10 @@ public class Seller extends Person implements InterfaceTest {
         this.responsibility = responsibility;
     }
 
+    public static <T> T identify(T name) {
+        return name;
+    }
+
     //subclass->parent->interface
     @Override
     public void eat() {
@@ -22,5 +26,9 @@ public class Seller extends Person implements InterfaceTest {
     @Override
     public void abs() {
         System.out.println("接口中的方法不用声明abstract");
+    }
+
+    public <T> void register(T name) {
+        System.out.println(name);
     }
 }
